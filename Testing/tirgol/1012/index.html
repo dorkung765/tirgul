@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tirgol</title>
+    <script src="form.js"></script>
+</head>
+<body>
+    <div>
+        <h1>Car Request</h1>
+        <form action="javascript:RentCar()">
+            <legend>Enter Your Full Name:</legend>
+            <input type="text" name="" id="fName"><br>
+            <legend>Enter Your Phone Number</legend><br>
+            <input type="tel" name="" id="pNumber"><br>
+            <legend>Please Enter an img Link:</legend>
+            <input type="text" name="" id="img"><br>
+            <legend>Please Choose a car:</legend>
+            <input type="checkbox" name="car" id="skoda" value="Skoda">
+            <label for="skoda" >Skoda</label><br>
+
+            <input type="checkbox" name="car" id="bmw" value="BMW">
+            <label for="bmw" >BMW</label><br>
+
+            <input type="checkbox" name="car" id="tesla" value="Tesla">
+            <label for="tesla" >Tesla</label><br>
+
+            <input type="checkbox" name="car" id="audi" value="Audi">
+            <label for="audi" >Audi</label><br>
+
+            <button>Submit</button>
+            
+        </form>
+        <hr>
+    </div>
+    <div>
+        <table id="table"></table>
+    </div>
+</body>
+</html>

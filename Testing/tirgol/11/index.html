@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="myScript.js"></script>
+</head>
+<body>
+    <div>
+        <h1>Our duty:</h1>
+        <form action="javascript:addCar ()">
+            <legend>First Name:</legend>
+            <input type="text" name="" id="fName"><br>
+            <legend>Last Name:</legend>
+            <input type="text" name="" id="lName"><br>
+            <legend>Current Date:</legend>
+            <input type="date" name="" id="date"><br>
+            <legend>Select An option:</legend>
+            <select id="carName">
+                <option value="Skoda">Skoda</option>
+                <option value="Kia">Kia</option>
+                <option value="BMW">BMW</option>
+                <option value="Range Rover">Range Rover</option>
+            </select>
+            <legend>Please Paste an Image Link:</legend>
+            <input type="text" name="" id="img"><br>
+            <button>Add a car</button>
+            
+        </form>
+        <hr>
+        <table id="table"></table>
+        <button onclick="delLast()">Remove Last Car</button>
+    </div>
+    <hr>
+    <select id="colors">
+        <option value="Red">Red</option>
+        <option value="blue">blue</option>
+        <option value="gray">gray</option>
+        <option value="yellow">yellow</option>
+    </select>
+    <button onclick="selectedColor()">Change BG Color</button>
+    <hr>
+
+</body>
+</html>
