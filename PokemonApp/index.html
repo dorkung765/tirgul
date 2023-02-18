@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Pokedex</h3>
+                </div>
+                <div class="panel-body">
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <label for="pokemon-input">Pokemon:</label>
+                            <input type="text" class="form-control" id="pokemon-input" placeholder="Enter Pokemon">
+                        </div>
+                        <div class="form-group">
+                            <label for="type-input">Type:</label>
+                            <input type="text" class="form-control" id="type-input" placeholder="Enter Type">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                    <hr>
+                    <div class="pokemon-info">
+                        <h4 id="name"></h4>
+                        <img id="image">
+                        <p><strong>Height:</strong> <span id="height"></span></p>
+                        <p><strong>Weight:</strong> <span id="weight"></span></p>
+                        <table class="table table-bordered">
+                            <thead>
+                            <tr>
+                                <th>Moves</th>
+                            </tr>
+                            </thead>
+                            <tbody id="moves"></tbody>
+                        </table>
+                    </div>
+                    <div class="pokemon-type">
+                        <h4>Pokemon of Type:</h4>
+                        <div id="pokemon-grid"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="app.js"></script>

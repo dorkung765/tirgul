@@ -1,0 +1,15 @@
+body {
+    margin-top: 50px;
+}
+
+.pokemon-info {
+    margin-top: 20px;
+}
+
+.table th {
+    text-align: center;
+}
+
+.table td {
+    text-align: left;
+}
